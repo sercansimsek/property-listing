@@ -19,15 +19,15 @@ export const CardList = () => {
 		loadData();
 	}, []);
 
-   console.log(errorMessage);
-   
+	console.log(errorMessage);
+
 	return (
 		<div>
-			<ul  className="flex flex-col gap-6">
-        {properties.map((property) => (
-          <li key={property.id}>{<Card property={property}/>}</li>
-        ))}
-      </ul>
+			<ul className="flex flex-col gap-6">
+				{properties.map((property) => (
+					<li key={property.id}>{<Card property={property} />}</li>
+				))}
+			</ul>
 		</div>
 	);
 };
