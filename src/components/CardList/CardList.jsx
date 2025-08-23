@@ -23,7 +23,7 @@ export const CardList = () => {
    
 	return (
 		<div>
-			<ul>
+			<ul  className="flex flex-col gap-6">
         {properties.map((property) => (
           <li key={property.id}>{<Card property={property}/>}</li>
         ))}

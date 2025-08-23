@@ -20,7 +20,7 @@ export const Card = ({ property }) => {
 				<div className="flex gap-6 mb-2 text-xs">
 					<div className="flex gap-1 items-center">
 						<img className="h-[24px] w-[24px]" src={House} alt="House" />
-						<p className="">{`${property.capacity.bedroom} bedroom`}</p>
+						<p>{`${property.capacity.bedroom} bedroom`}</p>
 					</div>
 
 					<div className="flex gap-1 items-center">
@@ -31,11 +31,11 @@ export const Card = ({ property }) => {
 
 				<hr className="mb-4 bg-[#4A5567] h-[1px] border-0"/>
 
-				<div className="flex justify-between">
-					<p className="text-xl font-bold flex items-baseline">{`$${property.price}`} <p className="text-sm font-light">/night</p>  </p>
-					<p className="flex gap-1">
-						<img src={Star} alt="star" />
-						{property.rating}
+				<div className="flex justify-between items-center">
+					<span className="text-xl font-bold flex items-baseline">{`$${property.price}`} <p className="text-sm font-light">/night</p>  </span>
+					<p className="flex gap-1 items-center">
+						<img className="h-6 w-6" src={Star} alt="star" />
+						<span className="text-sm font-bold">{property.rating}</span>
 					</p>
 				</div>
 			</div>
