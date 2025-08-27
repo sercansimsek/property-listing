@@ -4,7 +4,7 @@ export const Navbar = () => {
 	return (
 		<>
 			<div className="min-w-[329px] min-h-[306px] bg-[#20293A] bg-opacity-95 rounded-lg px-10 py-8 font-['DM Sans'] mb-12 border-1 border-[#4A5567]">
-				<div className="grid grid-cols-2 gap-3 lg:flex justify-center items-center text-sm text-[#F2F9FE] font-bold cursor-pointer mb-6 text-center lg:mb-0">
+				<div className="grid grid-cols-2 gap-3 text-sm text-[#F2F9FE] font-bold cursor-pointer mb-6 text-center lg:mb-0">
 					<a href="#" className="px-3 py-2 bg-[#4A5567] rounded-lg">
 						All Stays
 					</a>

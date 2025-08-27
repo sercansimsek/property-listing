@@ -1,12 +1,14 @@
-import mainImage from "../../assets/images/figma-hero-sm.jpg";
+/* import mainImageBig from "../../assets/images/mainHeroBig.jpg"; */
+import mainImageSm from '../../assets/images/figma-hero-sm.jpg';
+/* import cn from 'classnames'; */
 
 export const Header = () => {
 	return (
 		<div className="relative">
 			<div className="relative font-['Outfit']">
 				<img
-					className=" h-[400px] object-fill w-screen"
-					src={mainImage}
+					className=" h-[400px] object-fill w-screen lg:h-[620px]"
+					src={mainImageSm}
 					alt="mainHeroImage"
 				/>
 				<div className="flex flex-col justify-start absolute top-25 left-17 text-[#121826]">
