@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { getData } from "../../data/api";
 import { Card } from "../Card/Card";
 
-
 export const CardList = () => {
 	const [properties, setProperties] = useState([]);
 	const [errorMessage, setErrorMessage] = useState("");
@@ -24,7 +23,11 @@ export const CardList = () => {
 
 	return (
 		<div>
-			<ul className="flex flex-col gap-[72px]">
+			<div className="text-[#F2F9FE] text-2xl font-bold mb-8 flex justify-start px-4">
+				Over 200 stays
+			</div>
+
+			<ul className="grid grid-cols-1 gap-[72px] md:grid-cols-2 lg:grid-cols-3">
 				{properties.map((property) => (
 					<li key={property.id}>{<Card property={property} />}</li>
 				))}

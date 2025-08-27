@@ -2,10 +2,10 @@ import mainImage from "../../assets/images/figma-hero-sm.jpg";
 
 export const Header = () => {
 	return (
-		<div>
-			<div className="relative max-w-[412px] font-['Outfit']">
+		<div className="relative">
+			<div className="relative font-['Outfit']">
 				<img
-					className=" h-[400px] object-fill"
+					className=" h-[400px] object-fill w-screen"
 					src={mainImage}
 					alt="mainHeroImage"
 				/>
