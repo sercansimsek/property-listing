@@ -9,7 +9,7 @@ export const Card = ({ property }) => {
 				Superhost <img className="h-[13px] w-[13px]" src={Star} alt="star" />
 			</p>
 			<img
-				className="object-cover h-[200px] w-[357px]"
+				className="object-cover h-[200px] w-[357px] rounded-t-md"
 				src={property.image}
 				alt={property.title}
 			/>

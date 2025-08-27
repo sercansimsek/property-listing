@@ -2,7 +2,7 @@ import mainImage from "../../assets/images/figma-hero-sm.jpg";
 
 export const Header = () => {
 	return (
-		<div className="flex items-center justify-center">
+		<div>
 			<div className="relative max-w-[412px] font-['Outfit']">
 				<img
 					className=" h-[400px] object-fill"

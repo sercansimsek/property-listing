@@ -24,7 +24,7 @@ export const CardList = () => {
 
 	return (
 		<div>
-			<ul className="flex flex-col gap-6 justify-center items-center">
+			<ul className="flex flex-col gap-[72px]">
 				{properties.map((property) => (
 					<li key={property.id}>{<Card property={property} />}</li>
 				))}
