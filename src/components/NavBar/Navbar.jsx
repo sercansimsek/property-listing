@@ -3,8 +3,8 @@ import arrowDown from "../../assets/images/Expand_down.svg";
 export const Navbar = () => {
 	return (
 		<>
-			<div className="min-w-[329px] min-h-[306px] bg-[#20293A] bg-opacity-95 rounded-lg px-10 py-8 font-['DM Sans'] mb-12 border-1 border-[#4A5567]">
-				<div className="grid grid-cols-2 gap-3 text-sm text-[#F2F9FE] font-bold cursor-pointer mb-6 text-center lg:mb-0">
+			<div className="lg:flex lg:justify-center lg:items-center lg:gap-15 lg:h-[112px] xl:gap-50 min-w-[329px] h-[306px] bg-[#20293A] bg-opacity-95 rounded-lg px-10 py-8 font-['DM Sans'] mb-12 border-1 border-[#4A5567]">
+				<div className="grid grid-cols-2 gap-3 lg:flex text-sm text-[#F2F9FE] font-bold cursor-pointer mb-6 text-center lg:mb-0">
 					<a href="#" className="px-3 py-2 bg-[#4A5567] rounded-lg">
 						All Stays
 					</a>
@@ -24,7 +24,7 @@ export const Navbar = () => {
 						Switzerland
 					</a>
 				</div>
-				<div className="flex flex-col gap-5 justify-center items-center">
+				<div className="flex flex-col gap-5 justify-center items-center lg:flex-row">
 					<div className="flex gap-2 justify-center items-center">
 						<div className="w-12 h-6 rounded-[20px] bg-[#4E80EE] flex items-center justify-left">
 							<div className="w-5 h-5 rounded-full bg-[#F2F9FE] ml-[2px]"></div>

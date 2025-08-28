@@ -27,7 +27,7 @@ export const CardList = () => {
 				Over 200 stays
 			</div>
 
-			<ul className="grid grid-cols-1 gap-[72px] md:grid-cols-2 lg:grid-cols-3">
+			<ul className="grid grid-cols-1 gap-[72px] lg:grid-cols-2 xl:grid-cols-3">
 				{properties.map((property) => (
 					<li key={property.id}>{<Card property={property} />}</li>
 				))}
